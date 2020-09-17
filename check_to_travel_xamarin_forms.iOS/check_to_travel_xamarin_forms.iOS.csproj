@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{735716FF-6931-4DA1-B69E-289571B93E61}</ProjectGuid>
+    <ProjectGuid>{B9FDE313-3E64-4672-A06C-5328E8D20BF2}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -125,12 +125,68 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
     <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.7.335</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\check_to_travel_xamarin_forms\check_to_travel_xamarin_forms.csproj">
-      <Project>{27C0DD5C-44FC-4321-A506-1DC5E6FF8442}</Project>
+      <Project>{269EC485-F723-4F87-9A1C-21E8B19691A7}</Project>
       <Name>check_to_travel_xamarin_forms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image008.png">
+      <Link>Resources\images\image008.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image009.png">
+      <Link>Resources\images\image009.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image016.png">
+      <Link>Resources\images\image016.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image002.png">
+      <Link>Resources\images\image002.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image003.png">
+      <Link>Resources\images\image003.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image001.png">
+      <Link>Resources\images\image001.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image015.png">
+      <Link>Resources\images\image015.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image014.png">
+      <Link>Resources\images\image014.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image000.png">
+      <Link>Resources\images\image000.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image004.png">
+      <Link>Resources\images\image004.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image010.png">
+      <Link>Resources\images\image010.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image011.png">
+      <Link>Resources\images\image011.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image005.png">
+      <Link>Resources\images\image005.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image013.png">
+      <Link>Resources\images\image013.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image007.png">
+      <Link>Resources\images\image007.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image006.png">
+      <Link>Resources\images\image006.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\check_to_travel_xamarin_forms\images\image012.png">
+      <Link>Resources\images\image012.png</Link>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

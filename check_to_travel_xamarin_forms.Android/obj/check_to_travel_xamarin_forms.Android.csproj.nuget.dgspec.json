@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj": {}
+    "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj": {}
   },
   "projects": {
-    "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj": {
+    "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj",
+        "projectUniqueName": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj",
         "projectName": "check_to_travel_xamarin_forms.Android",
-        "projectPath": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj",
+        "projectPath": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/check_to_travel_xamarin_forms.Android.csproj",
         "packagesPath": "/Users/itoukenichi/.nuget/packages/",
-        "outputPath": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/obj/",
+        "outputPath": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj": {
-                "projectPath": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj"
+              "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj": {
+                "projectPath": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj"
               }
             }
           }
@@ -43,19 +43,23 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.4.0.991265, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }
       }
     },
-    "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj": {
+    "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj",
+        "projectUniqueName": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj",
         "projectName": "check_to_travel_xamarin_forms",
-        "projectPath": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj",
+        "projectPath": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms.csproj",
         "packagesPath": "/Users/itoukenichi/.nuget/packages/",
-        "outputPath": "/Users/itoukenichi/project_dir/temp/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/obj/",
+        "outputPath": "/Users/itoukenichi/project_dir/check_to_travel_xamarin_forms/check_to_travel_xamarin_forms/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/itoukenichi/.config/NuGet/NuGet.Config"
@@ -92,7 +96,11 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991265, )"
+              "version": "[4.8.0.1269, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [
@@ -105,7 +113,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
         }
       }
     }

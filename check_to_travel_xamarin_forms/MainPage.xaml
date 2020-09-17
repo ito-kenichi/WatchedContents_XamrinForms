@@ -1,7 +1,92 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="check_to_travel_xamarin_forms.MainPage">
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-</ContentPage>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:otherpage="clr-namespace:check_to_travel_xamarin_forms;assembly=check_to_travel_xamarin_forms"
+            mc:Ignorable="d"
+            Title="AAAA"
+            x:Class="check_to_travel_xamarin_forms.MainPage">
+    <TabbedPage.Children>
+
+        <ContentPage Title="1週間前まで">
+        <ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness" iOS="40,40,40,40" Android="40,40,40,40" />
+        </ContentPage.Padding>
+        <Grid x:Name="gridLayout">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        </ContentPage>
+
+        <ContentPage Title="前日まで">
+            <ContentPage.Padding>
+                <OnPlatform x:TypeArguments="Thickness" iOS="40,40,40,40" Android="40,40,40,40" />
+            </ContentPage.Padding>
+            <Grid x:Name="gridLayout02">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+        </ContentPage>
+
+        <ContentPage Title="当日">
+            <ContentPage.Padding>
+                <OnPlatform x:TypeArguments="Thickness" iOS="40,40,40,40" Android="40,40,40,40" />
+            </ContentPage.Padding>
+            <Grid x:Name="gridLayout03">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </ContentPage>
+
+        <ContentPage Title="現地">
+            <ContentPage.Padding>
+                <OnPlatform x:TypeArguments="Thickness" iOS="40,40,40,40" Android="40,40,40,40" />
+            </ContentPage.Padding>
+            <Grid x:Name="gridLayout04">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+        </ContentPage>
+
+        <otherpage:OtherPage></otherpage:OtherPage>
+
+    </TabbedPage.Children>
+</TabbedPage>
