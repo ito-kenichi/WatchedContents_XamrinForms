@@ -95,10 +95,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\watched_contents_react_native\assets\images\image002.jpg">
+    <EmbeddedResource Include="..\watched_contents_xamarin_forms\assets\images\image002.jpg">
       <Link>Resources\drawable\assets\images\image002.jpg</Link>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\..\watched_contents_react_native\assets\images\image001.jpg">
+    <EmbeddedResource Include="..\watched_contents_xamarin_forms\assets\images\image001.jpg">
       <Link>Resources\drawable\assets\images\image001.jpg</Link>
     </EmbeddedResource>
   </ItemGroup>
