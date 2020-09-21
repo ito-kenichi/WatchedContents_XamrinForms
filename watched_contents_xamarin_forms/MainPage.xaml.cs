@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace watched_contents_xamarin_forms
@@ -13,6 +8,11 @@ namespace watched_contents_xamarin_forms
         public MainPage()
         {
             InitializeComponent();
+        }
+        async void OnItemSelected(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ZoomScrollMainPage("test"));
+            DisplayImage.imagePath = "watched_contents_xamarin_forms.assets.images.image002.jpg";
         }
     }
 }

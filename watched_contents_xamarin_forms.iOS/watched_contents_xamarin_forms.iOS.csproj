@@ -68,6 +68,7 @@
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZoomScrollViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
@@ -132,5 +133,13 @@
       <Project>{4886FE12-4765-4D68-84BF-4AD9C52DDBCF}</Project>
       <Name>watched_contents_xamarin_forms</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="..\watched_contents_xamarin_forms\assets\images\image002.jpg">
+      <Link>Resources\assets\images\image002.jpg</Link>
+    </BundleResource>
+    <BundleResource Include="..\watched_contents_xamarin_forms\assets\images\image001.jpg">
+      <Link>Resources\assets\images\image001.jpg</Link>
+    </BundleResource>
   </ItemGroup>
 </Project>
