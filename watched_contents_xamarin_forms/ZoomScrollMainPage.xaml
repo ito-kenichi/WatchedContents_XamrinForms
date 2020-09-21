@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:scrollview="clr-namespace:watched_contents_xamarin_forms"
+    x:Class="watched_contents_xamarin_forms.ZoomScrollMainPage"
+    BackgroundColor="Black">
+    <StackLayout x:Name="layout">
+        <!--<scrollview:DisplayImage />-->
+        <Button x:Name="closeButton" Command="{Binding PopupCommand}" Text="Close Modal" Clicked="OnClicked" />
+    </StackLayout>
+</ContentPage>
